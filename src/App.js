@@ -10,8 +10,8 @@ function App() {
       <Header />
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/cart" element={<CartPage />} />
+          <Route path="/Shopping-Cart-ContextApi/" element={<Home />} />
+          <Route path="/Shopping-Cart-ContextApi/cart" element={<CartPage />} />
         </Routes>
       </div>
     </BrowserRouter>
