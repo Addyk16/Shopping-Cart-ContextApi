@@ -10,10 +10,10 @@ const Header = () => {
       <span className="header">My Shopping Cart</span>
       <ul className="nav">
         <li>
-          <Link to="/">Home Page</Link>
+          <Link to="/Shopping-Cart-ContextApi/">Home Page</Link>
         </li>
         <li>
-          <Link to="/cart">Cart ({cart.length})</Link>
+          <Link to="/Shopping-Cart-ContextApi/cart">Cart ({cart.length})</Link>
         </li>
       </ul>
     </div>
